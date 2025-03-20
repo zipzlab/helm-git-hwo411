@@ -7,7 +7,7 @@ if [ -z "$HELM_GIT_SOURCE" ]; then
   # shellcheck source=helm-git-plugin.sh
   source "$HELM_GIT_DIRNAME/helm-git-plugin.sh"
 fi
-
+ 
 function _run_helm_git() { run main '' '' '' "$1"; }
 
 setup() {
