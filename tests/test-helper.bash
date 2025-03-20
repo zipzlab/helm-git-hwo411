@@ -32,6 +32,8 @@ setup() {
   export HELM_CACHE_HOME
   export HELM_CONFIG_HOME
   set_chart_cache_strategy repo
+  enable_repo_cache
+  enable_chart_cache
 }
 
 teardown() {
